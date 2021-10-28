@@ -455,7 +455,7 @@ async def on_file_to_photo(event):
         return await edit_delete(event, "`For sticker to image use stoi command`")
     if image.size > 10 * 1024 * 1024:
         return  # We'd get PhotoSaveFileInvalidError otherwise
-    catt = await edit_or_reply(event, "`Converting.....`")
+    catt = await edit_or_reply(event, "ابشر قاعد احوله ثواني بس ..")
     file = await event.client.download_media(target, file=BytesIO())
     file.seek(0)
     img = await event.client.upload_file(file)
@@ -559,13 +559,13 @@ async def _(event):  # sourcery no-metrics
 
 
 @catub.cat_cmd(
-    pattern="nfc (mp3|voice)",
-    command=("nfc", plugin_category),
+    pattern="تحويل (mp3|voice)",
+    command=("تحويل", plugin_category),
     info={
         "header": "Converts the required media file to voice or mp3 file.",
         "usage": [
-            "{tr}nfc mp3",
-            "{tr}nfc voice",
+            "{tr}تحويل mp3",
+            "{tr}تحويل صوت",
         ],
     },
 )
