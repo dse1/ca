@@ -58,18 +58,18 @@ async def fetch_info(replied_user, event):
     last_name = last_name.replace("\u2060", "") if last_name else (" ")
     username = "@{}".format(username) if username else ("This User has no Username")
     user_bio = "This User has no About" if not user_bio else user_bio
-    caption = "<b><i>USER INFO from Durov's Database :</i></b>\n\n"
-    caption += f"<b>👤 First Name:</b> {first_name} {last_name}\n"
-    caption += f"<b>🤵 Username:</b> {username}\n"
-    caption += f"<b>🔖 ID:</b> <code>{user_id}</code>\n"
-    caption += f"<b>🌏 Data Centre ID:</b> {dc_id}\n"
-    caption += f"<b>🖼 Number of Profile Pics:</b> {replied_user_profile_photos_count}\n"
-    caption += f"<b>🤖 Is Bot:</b> {is_bot}\n"
-    caption += f"<b>🔏 Is Restricted:</b> {restricted}\n"
-    caption += f"<b>🌐 Is Verified by Telegram:</b> {verified}\n\n"
-    caption += f"<b>✍️ Bio:</b> \n<code>{user_bio}</code>\n\n"
-    caption += f"<b>👥 Common Chats with this user:</b> {common_chat}\n"
-    caption += "<b>🔗 Permanent Link To Profile:</b> "
+    caption = "<b><i>**اهلين عيني الاونر\nهاذي معلومات الشخص الي طلبتها :</i></b>\n\n"
+    caption += f"<b>| ➥ الاسم الي مسجله:</b> {first_name} {last_name}\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ يوزره :</b> {username}\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ ايديه:</b> <code>{user_id}</code>\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ مركز البيانات:</b> {dc_id}\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ عدد الصور في البروفايل:</b> {replied_user_profile_photos_count}\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ هل هو بوت ؟:</b> لا\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ عليه قيود ؟:</b> لا\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ تم التحقق منه في Telgram :</b> {verified}\n\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥ البايو حقه :</b> \n<code>{user_bio}</code>\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += f"<b>| ➥عدد المجموعات المشتركه :</b> {common_chat}\n"✦⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯✦
+    caption += "<b>|- رابط حسابه :</b> "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     return photo, caption
 
