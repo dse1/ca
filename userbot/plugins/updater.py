@@ -255,7 +255,7 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n`CATUSERBOT is`  **up-to-date**  `with`  "
+            "\n**عيني الون مافي تحديثات انت على احدث نسخه**  "
             f"**{UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
