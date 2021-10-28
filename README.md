@@ -6,10 +6,10 @@ A simple Telegram userbot based on Telethon .
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green?&style=flat-square)](https://GitHub.com/Jisan09/catuserbot/graphs/commit-activity) 
 ![Repo Size](https://img.shields.io/github/repo-size/Jisan09/catuserbot?&style=flat-square&logo=github)
-[![GitHub license](https://img.shields.io/github/license/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/Jisan09/catuserbot/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/Jisan09/catuserbot/issues)
-[![PR Open](https://img.shields.io/github/issues-pr/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/Jisan09/catuserbot/pulls)
-[![PR Closed](https://img.shields.io/github/issues-pr-closed/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/Jisan09/catuserbot/pulls?q=is:closed)
+[![GitHub license](https://img.shields.io/github/license/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/issues)
+[![PR Open](https://img.shields.io/github/issues-pr/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca)
+[![PR Closed](https://img.shields.io/github/issues-pr-closed/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca?q=is:closed)
 [![GitHub contributors](https://img.shields.io/github/contributors/sandy1709/catuserbot?&style=flat-square&logo=github)](https://GitHub.com/sandy1709/catuserbot/graphs/contributors/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/Jisan09/catuserbot/graphs/commit-activity)
 [![GitHub forks](https://img.shields.io/github/forks/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/Jisan09/catuserbot/fork)
@@ -22,7 +22,7 @@ A simple Telegram userbot based on Telethon .
 ## How to deploy catuserbot
 ### Self host
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FJisan09%2Fcatpack)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ccc1cic/ca)
 
   <details>
     <summary>Steps to deploy on Heroku !! </summary>
