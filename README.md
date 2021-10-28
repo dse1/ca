@@ -1,6 +1,6 @@
-# A L O N E
+# CatUserbot
 A simple Telegram userbot based on Telethon .
-[![catuserbot logo](https://telegra.ph/file/0dce2b7aaadc56eac9173.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot)
+[![catuserbot logo](https://telegra.ph/file/b7dc845e3a48cde0d7bb1.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot)
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FJisan09%2Fcatuserbot)
 [![CodeFactor](https://www.codefactor.io/repository/github/Jisan09/catuserbot/badge?&style=flat-square)](https://www.codefactor.io/repository/github/Jisan09/catuserbot)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -22,7 +22,7 @@ A simple Telegram userbot based on Telethon .
 ## How to deploy catuserbot
 ### Self host
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ccc1cic/ca)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FJisan09%2Fcatpack)
 
   <details>
     <summary>Steps to deploy on Heroku !! </summary>
@@ -37,8 +37,8 @@ A simple Telegram userbot based on Telethon .
   </details>
   
 ## Support
-   <a href="https://t.me/C1CIC"><img src="https://img.shields.io/badge/𝐀 𝐋 𝐎 𝐍 𝐄 ♪l%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
-   <a href="https://t.me/nvvvm"><img src="https://img.shields.io/badge/Feeling ♪%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/catuserbot17"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/catuserbot_support"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
    
 ## Inspiration
    - [X-tra-Telegram](https://github.com/Dark-Princ3/X-tra-Telegram)
