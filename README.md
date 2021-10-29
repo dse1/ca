@@ -12,8 +12,8 @@ A simple Telegram userbot based on Telethon .
 [![PR Closed](https://img.shields.io/github/issues-pr-closed/ccc1cic/ca?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/pulls?q=is:closed)
 [![GitHub contributors](https://img.shields.io/github/contributors/sandy1709/catuserbot?&style=flat-square&logo=github)](https://GitHub.com/sandy1709/catuserbot/graphs/contributors/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ccc1cic/ca?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/graphs/commit-activity)
-[![GitHub forks](https://img.shields.io/github/forks/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/fork)
-[![GitHub stars](https://img.shields.io/github/stars/Jisan09/catuserbot?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ccc1cic/ca?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/fork)
+[![GitHub stars](https://img.shields.io/github/stars/ccc1cic/ca?&style=flat-square&logo=github)](https://github.com/ccc1cic/ca/stargazers)
 
 
 
