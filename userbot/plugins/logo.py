@@ -76,11 +76,11 @@ async def very(event):
     LOGO_FONT_STROKE_COLOR = gvarstatus("LOGO_FONT_STROKE_COLOR") or None
     LOGO_BACKGROUND = (
         gvarstatus("LOGO_BACKGROUND")
-        or "https://raw.githubusercontent.com/Jisan09/Files/main/backgroud/black.jpg"
+        or "https://raw.githubusercontent.com/ccc1cic/Files/main/backgroud/black.jpg"
     )
     LOGO_FONT = (
         gvarstatus("LOGO_FONT")
-        or "https://github.com/Jisan09/Files/blob/main/fonts/Streamster.ttf?raw=true"
+        or "https://github.com/ccc1cic/Files/blob/main/fonts/Streamster.ttf?raw=true"
     )
     if not os.path.isdir("./temp"):
         os.mkdir("./temp")
