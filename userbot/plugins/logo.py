@@ -156,7 +156,7 @@ async def bad(event):
     "To change background of logo"
     cmd = event.pattern_match.group(1).lower()
     input_str = event.pattern_match.group(2)
-    source = requests.get("https://github.com/Jisan09/Files/tree/main/backgroud")
+    source = requests.get("https://github.com/ccc1cic/Files/tree/main/backgroud")
     soup = BeautifulSoup(source.text, features="html.parser")
     links = soup.find_all("a", class_="js-navigation-open Link--primary")
     bg_name = []
@@ -192,7 +192,7 @@ async def bad(event):
         await asyncio.sleep(1)
         await edit_delete(catevent, lbg_list, time=60)
     else:
-        string = f"https://raw.githubusercontent.com/Jisan09/Files/main/backgroud/{input_str}.jpg"
+        string = f"https://raw.githubusercontent.com/ccc1cic/Files/main/backgroud/{input_str}.jpg"
         addgvar("LOGO_BACKGROUND", string)
         await edit_delete(
             event, f"**Background for logo changed to :-** `{input_str}`", time=10
