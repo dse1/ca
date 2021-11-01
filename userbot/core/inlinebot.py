@@ -56,26 +56,26 @@ def main_menu():
     text = f"𝗖𝗮𝘁𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𝗛𝗲𝗹𝗽𝗲𝗿\
         \n𝗣𝗿𝗼𝘃𝗶𝗱𝗲𝗱 𝗯𝘆 {mention}"
     buttons = [
-        (Button.inline("ℹ️ معلومات التنصيب", data="check"),),
+        (Button.inline("ℹ️ Info", data="check"),),
         (
-            Button.inline(f"👮‍♂️ اوامر المشرفين ({len(GRP_INFO['admin'])})", data="admin_menu"),
-            Button.inline(f"🤖 بوت ({len(GRP_INFO['bot'])})", data="bot_menu"),
+            Button.inline(f"👮‍♂️ Admin ({len(GRP_INFO['admin'])})", data="admin_menu"),
+            Button.inline(f"🤖 Bot ({len(GRP_INFO['bot'])})", data="bot_menu"),
         ),
         (
-            Button.inline(f"🎨 اوامر التسليه ({len(GRP_INFO['fun'])})", data="fun_menu"),
-            Button.inline(f"🧩 متفرقات ({len(GRP_INFO['misc'])})", data="misc_menu"),
+            Button.inline(f"🎨 Fun ({len(GRP_INFO['fun'])})", data="fun_menu"),
+            Button.inline(f"🧩 Misc ({len(GRP_INFO['misc'])})", data="misc_menu"),
         ),
         (
-            Button.inline(f"🧰 ادوات ({len(GRP_INFO['tools'])})", data="tools_menu"),
-            Button.inline(f"🗂 ملفات ({len(GRP_INFO['utils'])})", data="utils_menu"),
+            Button.inline(f"🧰 Tools ({len(GRP_INFO['tools'])})", data="tools_menu"),
+            Button.inline(f"🗂 Utils ({len(GRP_INFO['utils'])})", data="utils_menu"),
         ),
         (
-            Button.inline(f"➕ اكسترا ({len(GRP_INFO['extra'])})", data="extra_menu"),
+            Button.inline(f"➕ Extra ({len(GRP_INFO['extra'])})", data="extra_menu"),
             Button.inline(
-                f"⚰️ مالها فايده ({len(GRP_INFO['useless'])})", data="useless_menu"
+                f"⚰️ Useless ({len(GRP_INFO['useless'])})", data="useless_menu"
             ),
         ),
-        (Button.inline("🔒 اغلاق القائمه", data="close"),),
+        (Button.inline("🔒 Close Menu", data="close"),),
     ]
 
     return text, buttons
@@ -229,7 +229,7 @@ async def inline_handler(event):  # sourcery no-metrics
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/ccc1cic/ca"),
+                    Button.url("Repo", "https://github.com/Jisan09/catuserbot"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -560,7 +560,7 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("Source code", "https://github.com/ccc1cic/ca"),
+                Button.url("Source code", "https://github.com/Jisan09/catuserbot"),
                 Button.url(
                     "Deploy",
                     "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack",
@@ -572,14 +572,14 @@ async def inline_handler(event):  # sourcery no-metrics
             url=CATLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 alone.", "md"
+            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗖𝗮𝘁𝗨𝘀𝗲𝗿𝗯𝗼𝘁.", "md"
         )
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="Alone",
+            title="𝘾𝙖𝙩𝙐𝙨𝙚𝙧𝙗𝙤𝙩",
             description="Deploy yourself",
-            url="https://github.com/ccc1cic/ca",
+            url="https://github.com/Jisan09/catuserbot",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
@@ -595,7 +595,7 @@ async def on_plug_in_callback_query_handler(event):
     buttons = [
         (Button.inline("Open Menu", data="mainmenu"),),
     ]
-    await event.edit("**ابشر قفلت قائمة الاوامر**", buttons=buttons)
+    await event.edit("Menu Closed", buttons=buttons)
 
 
 @catub.tgbot.on(CallbackQuery(data=re.compile(b"check")))
@@ -622,7 +622,7 @@ async def on_plug_in_callback_query_handler(event):
 
 @catub.tgbot.on(
     CallbackQuery(
-        data=re.compile(b"back_([a-z]+)_([a-z1-9]+)_([0-9]+)_?([a-z1-9]+)?_?([0-9]+)?")
+        data=re.compile(b"back_([a-z]+)_([a-z_1-9]+)_([0-9]+)_?([a-z1-9]+)?_?([0-9]+)?")
     )
 )
 @check_owner
@@ -720,7 +720,7 @@ async def on_plug_in_callback_query_handler(event):
 
 @catub.tgbot.on(
     CallbackQuery(
-        data=re.compile(b"(.*)_cmdhelp_([a-z1-9]+)_([0-9]+)_([a-z]+)_([0-9]+)")
+        data=re.compile(b"(.*)_cmdhelp_([a-z_1-9]+)_([0-9]+)_([a-z]+)_([0-9]+)")
     )
 )
 @check_owner
